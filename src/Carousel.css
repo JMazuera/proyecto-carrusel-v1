@@ -1,0 +1,67 @@
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #388E3C;
+}
+
+.carousel-container {
+    text-align: center;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.carousel-image {
+    width: 50vw;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.carousel-content h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.carousel-content p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.carousel-buttons {
+    margin-top: 15px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn-gray {
+    background-color: #ccc;
+    color: #333;
+}
+
+.btn-gray:hover {
+    background-color: #aaa;
+}
+
+
+.btn-green {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-green:hover {
+    background-color: #388E3C;
+}
